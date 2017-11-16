@@ -1,0 +1,276 @@
+/*******ORCHARD*****/
+.name { display: none !important; }
+/*******NAV*****/
+.navbar-white .navbar-brand {
+  padding: 8px 15px !important;
+}
+
+.sticky-menu.mfixed {
+    position: fixed;
+    top: 38px;
+    left: 0;
+    right: 0;
+    z-index: 1000;    
+    background-color: #fff;
+}
+.navbar-fixed-top {
+    position: fixed !important; 
+    background-color: #ccc;
+}
+
+.megamenu-title {
+ 	font-weight: bold; 
+  	color: #990000;
+  	border-bottom: solid 1px #ccc;
+}
+
+.megamenu-title {
+  font-weight: bold;
+  text-align: left;
+  list-style-position: outside;
+  text-transform: uppercase;
+  display: block;
+  
+}
+span.megamenu-title:hover {
+ color: #9a9a9a !important;
+  
+}
+
+/*******HERO SLIDER*****/
+.halfSlider {
+  height: 300px !important;
+  overflow: hidden !important;
+}
+
+.halfSlider .rev-title {
+ 	top: 109px !important; 
+  	white-space: normal !important;
+        text-align: center;
+}
+.halfSlider .rev-text {
+ 	top: 180px !important; 
+}
+/******MEDIA QUERIES******/
+@media (max-width: 480px) {
+  .tp-caption.rev-title, .tp-caption.rev-text, .tp-caption.rev-btn {
+ 	text-indent:-9999px;
+    	line-height:0px;
+      	border: none !important;
+  }
+  .tp-caption.rev-title::after {
+ 	content: "Go"; 
+    	font-size: 40px !important;
+    	text-indent: 0px;
+    	display: block;
+    	line-height:  initial;
+  }
+  .widget-LegendsHero .tp-caption.rev-title::after {
+ 	content: "Legends"; 
+    	font-size: 40px !important;
+    	text-indent: 0px;
+    	display: block;
+    	line-height:  initial;
+  }
+  
+  .noc .tp-caption.rev-title::after {
+ 	content: "Night of Champions"; 
+    	font-size: 25px !important;
+    	text-indent: 0px;
+    	display: block;
+  } 
+}
+@media (min-width: 992px) {
+ 
+  .orchard-layouts-root .container, .zone-before-main .container { width: 900px; }
+  
+}
+@media (min-width: 48em) and (max-width: 61em) { 
+  
+    #layout-featured + #layout-main-container { 
+    	margin-top: 135px;
+  }
+  #layout-main-container { 
+    	margin-top: 0px;
+  }
+}
+
+/*****GENERAL THEME MODS*******/
+
+.section {
+  padding: 40px 0 20px;
+}
+
+.section-header {
+  margin-bottom: 20px; 
+}
+.pricing-table.flat header {
+ 	background-color: #000; 
+}
+.pricing-table.flat .price {
+  	color: #fff;
+}
+.shadow-title { content: "";  }
+.shadow-title:after {
+      color: #990000; 
+}
+.section-title {
+    font-size: 45px; 
+}
+.entry-media {
+   border: 1px solid #ccc; 
+}
+
+#content { 
+   padding-bottom: 0px; 
+}
+.table {
+   margin-bottom: 0px; 
+}
+.table .row {
+   margin-bottom: 0px; 
+}
+.table > .row, article > .row {
+  width: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.team-member-container {
+  height: 350px;
+  overflow: none;
+}
+
+.logo-white {
+  fill: #FFF;
+}
+
+.cell {
+  padding: 0px; 
+}
+.page .panel-body ul li a { color: #000; }
+.mb50{
+  padding-top: -85px;
+  padding-bottom: 25px;
+  
+}
+.iframe-btn {
+  padding-left: 4px; 
+}
+
+/***ABOUT****/
+.board .team-member img {
+  width:50%;
+  margin:auto;
+}
+
+/****MAILCHIMP****/
+#mc_embed_signup{/*background:#fff;*/ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in you-alignr site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+
+/*****CAREERS****/
+.career.sidebar .widget .links li a { color: #990000; }
+#career-menu-btn {
+  padding: 8px;
+    border-color: #f0f0f0;
+    font-size: 14px;
+    background-color: #f0f0f0;
+}
+
+/***LEGENDS****/
+.legends .shadow-title:after {
+      color: #BF8D31;
+}
+.underline {
+    text-decoration: underline;
+}
+
+/******404*******/
+.background-photo  {
+  background-image:url("/Media/Default/General/404.jpg");
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+
+.error-title {
+  color: #e1e1e1;
+}
+
+.error-subtitle {
+  color: #e1e1e1;
+}
+
+.error-text {
+  color: #e1e1e1;
+}
+
+
+/*****NOC********/
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+.noc .navbar, .noc .navbar .navbar-brand  { border: 0px !important}
+.noc .navbar-white.navbar-transparent { background-color: rgba(0,0,0,0.2) !important; }
+.noc .navbar-white.navbar-transparent .navbar-nav > li > a, .noc .tp-caption.rev-title { color: #BF8D30 !important; }
+.noc .tp-caption.rev-title { background-color: rgba(0,0,0,0.65); }
+.noc .navbar-white.navbar-transparent .navbar-nav > li > a:hover { color: #FFFFFF; }
+
+
+#nocSponsors {
+  margin: 0 auto;
+}
+
+#sponsorsDiv {
+  height: 180px;
+}
+
+
+
+
+
+/********SportsPerformance**********/
+.blog-post {
+  margin-bottom: 80px;
+  padding-left: 100px;
+  position:relative;
+}
+.blog-post:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    display: block;
+    width: 1px;
+    background-color: #eaeaea;
+    z-index: 10;
+}
+#feed li {
+  float: left;
+  padding-left: 15px;	
+}
+
+ /*********Partnerships*********/
+
+.partnerImgs {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+/******Captains*****/@media (min-width: 992px) { .team-member figure { max-height: 244px !important; overflow: hidden; }}

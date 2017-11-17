@@ -1,21 +1,6 @@
-/* ================================================
+/* ================================================ */
 
-(function () {
-	"use strict";
-	// Slider Revolution
-	jQuery('#revslider').revolution({
-		delay:8000,
-		startwidth:1170,
-		startheight:500,
-		fullWidth:"on",
-		fullScreen:"on",
 
-		soloArrowLeftHOffset:20,
-		soloArrowRightHOffset:20,
-		dottedOverlay:"threexthree",
-	  fullScreenOffsetContainer: "#header, #gheader"
-	});
-}());
 /* ================================================
 ----------- Boss ---------- */
 (function ($) {

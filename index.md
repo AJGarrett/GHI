@@ -2,6 +2,6 @@
 title: Go AIA Homepage 
 permalink: "/"
 Field name:
-layout: default
+layout: index
 ---
 

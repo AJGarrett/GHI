@@ -1,0 +1,109 @@
+ <div id="revslider-container">
+        <div id="revslider">
+            <ul>
+                <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="{{ include.text1 }}" data-thumb="{{ include.src1 }}">
+                        <img src="{{ include.src1 }}"  alt="slidebg1" data-lazyload="{{ include.src1 }}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption rev-title lfb ltt"
+                            data-x="center"
+                            data-y="210"
+                            data-speed="1000"
+                            data-start="1000"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="600"
+                            style="z-index: 6">{{ include.text1 }}
+                        </div>
+
+
+                        <div class="tp-caption rev-text lfb ltt"
+                            data-x="center"
+                            data-y="290"
+                            data-speed ="1000"
+                            data-start="1200"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="700"
+                            style="z-index: 12">{{ include.byline1 }}
+                        </div>
+                        
+                    </li>
+                {% if include.src2 %}
+                 <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="{{ include.text2}}" data-thumb="{{ include.src2 }}">
+                        <img src="{{ include.src2 }}"  alt="slidebg1" data-lazyload="{{ include.src2 }}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption rev-title lfb ltt"
+                            data-x="center"
+                            data-y="210"
+                            data-speed="1000"
+                            data-start="1000"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="600"
+                            style="z-index: 6">{{ include.text2 }}
+                        </div>
+
+
+                        <div class="tp-caption rev-text lfb ltt"
+                            data-x="center"
+                            data-y="290"
+                            data-speed ="1000"
+                            data-start="1200"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="700"
+                            style="z-index: 12">{{ include.byline2 }}
+                        </div>
+                        
+                    </li>
+                {% endif %}
+                {% if include.src3 %}
+                    <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="{{ include.text3 }}" data-thumb="{{ include.src3 }}">
+                        <img src="{{ include.src3 }}"  alt="slidebg1" data-lazyload="{{ include.src3 }}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption rev-title lfb ltt"
+                            data-x="center"
+                            data-y="210"
+                            data-speed="1000"
+                            data-start="1000"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="600"
+                            style="z-index: 6">{{ include.text3 }}
+                        </div>
+
+
+                        <div class="tp-caption rev-text lfb ltt"
+                            data-x="center"
+                            data-y="290"
+                            data-speed ="1000"
+                            data-start="1200"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="700"
+                            style="z-index: 12">{{ include.byline3 }}
+                        </div>
+                        
+                    </li>
+               {% endif %}
+               {% if include.src4 %}
+               <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="{{ include.text4}}" data-thumb="{{ include.src4 }}">
+                      <img src="{{ include.src4 }}"  alt="slidebg1" data-lazyload="{{ include.src4 }}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                      <div class="tp-caption rev-title lfb ltt"
+                          data-x="center"
+                          data-y="210"
+                          data-speed="1000"
+                          data-start="1000"
+                          data-easing="Power3.easeInOut"
+                          data-endspeed="600"
+                          style="z-index: 6">{{ include.text4 }}
+                      </div>
+
+
+                      <div class="tp-caption rev-text lfb ltt"
+                          data-x="center"
+                          data-y="290"
+                          data-speed ="1000"
+                          data-start="1200"
+                          data-easing="Power3.easeInOut"
+                          data-endspeed="700"
+                          style="z-index: 12">{{ include.byline4 }}
+                      </div>
+                      
+                  </li>
+              {% endif %}
+            </ul>
+        </div>
+    </div>
+

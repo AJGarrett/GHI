@@ -3,9 +3,8 @@ layout: default
 ---
 {% capture sImage %} {{ page.sliderImage }} {% endcapture %}
 {% capture sText %} {{ page.sliderText }} {% endcapture %}
-<div class="halfSlider">
-    {% include plugins/revslider.html src1=sImage text1=sText %}
-</div>
+{% include plugins/revslider.html src1=sImage text1=sText %}
+
 <div class="max-width">
     <div class="container mt20">
         {{ content }}

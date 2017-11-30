@@ -21,7 +21,7 @@
 
 		  // Call Boss Functions
 		  console.log("loading Boss");
-		  this.queryLoad();
+		  //this.queryLoad();
 		  this.checkMobile();
 		  this.pageHeaderTitleAlign();
 		  this.menuHover();

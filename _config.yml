@@ -1,0 +1,45 @@
+---
+title: GoAIA
+timezone: UTC
+collections:
+  media:
+    title: Media
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    byLine: ''
+    layout: pages
+include: ["_pages"]
+exclude:
+- "/vendor/"
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+- "*.gemspec"
+keep_files:
+- CNAME
+- ".git"
+- ".gitignore"
+subtitle: Celebrating the Induction to the Hall of Faith
+url: 
+baseurl: 
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
+markdown: kramdown
+descriptions:
+- cat: jekyll
+  desc: Posts describing Jekyll setup techniques.
+- cat: dummy
+  desc: Just some placeholder posts, lorem ipsum and the rest.
+sass:
+  style: compressed

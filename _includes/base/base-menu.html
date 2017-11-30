@@ -10,7 +10,7 @@
                 </div>
             </div>
         </div><!-- End #header-search-form -->
-        <nav class="navbar navbar-white navbar-inverse animated-dropdown ttb-dropdown sticky-menu" role="navigation">
+        <nav class="navbar navbar-white {{ include.color }} animated-dropdown ttb-dropdown sticky-menu" role="navigation">
             {% include base/top-nav.html %}
             <div class="navbar-inner">
                 <div class="container">
@@ -21,7 +21,13 @@
                             <span class="icon-bar"></span>
                         </button>
 
-                        <a class="navbar-brand text-uppercase" href="/" title="Athletes In Action"> <img class="img-responsive" src="/Content/athletesinaction.svg" alt="AIA"  width="180px" height="68px" /></a>
+                        <a class="navbar-brand text-uppercase" href="/" title="Athletes In Action"> 
+                            {% if include.color == 'navbar-inverse' %}
+                                <img class="img-responsive" src="/images/athletesinaction-home.svg" alt="AIA"  width="180px" height="68px" />
+                            {% else %}
+                                <img class="img-responsive" src="/images/athletesinaction.svg" alt="AIA"  width="180px" height="68px" />
+                            {% endif %}
+                        </a>
 
 
 

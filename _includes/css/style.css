@@ -87,12 +87,14 @@ Version:1.0.3
 Import vertical spacing helper css file (minified) 
 To see how it work see vspacing.css file (unminified)
 */
+/*
 @import url('vspacing.min.css');
-
+*/
 /* Import font icons */
+/*
 @import url('font-awesome.min.css');
 @import url('simple-line-icons.css');
-
+*/
 /* Import Google Fonts - 5 Fonts - Lato + Open Sans + Raleway + Montserrat + Show Into Light */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
@@ -3423,14 +3425,14 @@ a.list-group-item:focus {
 /* -----------------------------------------
 2.20 Labels ----------------------------- */
 .label {
-	display: inline-block;
-	padding: 0 10px;
-	font:600 10px/1.6 'Open Sans', Verdana;
-	color: #fff;
-	text-align: center;
-	border-radius: 0;
-	text-transform: uppercase;
-	vertical-align: middle;
+  display: inline-block;
+  padding: 0 10px;
+  font:600 10px/1.6 'Open Sans', Verdana;
+  color: #fff;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
 .label-popular {

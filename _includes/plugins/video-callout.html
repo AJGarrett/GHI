@@ -1,16 +1,16 @@
 <div class="no-border no-margin">
     <div class="mb mb-xs"></div>
     <!-- space -->
-    <div class="bg-image overlay-container" data-bgattach="/Media/Default/basketball/John%20Test/22047506141_af7b7996e6_o.jpg" style="background-image: url(&quot;/Media/Default/basketball/John%20Test/22047506141_af7b7996e6_o.jpg&quot;);">
+    <div class="bg-image overlay-container" data-bgattach="{{ include.image }}" style="background-image: url('{{ include.image }}');">
         <div class="overlay dark"></div>
         <!-- End .overlay -->
         <div class="container">
             <div class="iframe-btn-container">
                 <header class="title-block text-center mb50">
-                    <h2 class="text-white text-center mb20">An Experience of a Lifetime!</h2>
-                    <p class="text-white">Check out this video recap created by a recent AIA opportunity participant to the Philippines</p>
+                    <h2 class="text-white text-center mb20">{{ inclide.text }}</h2>
+                    <p class="text-white">{{ include.byLine }}</p>
                 </header>
-                <a href="https://www.youtube.com/watch?v=evqlr_0AIzc" class="popup-iframe iframe-btn" title="Our Video">
+                <a href="{{ include.video }}" class="popup-iframe iframe-btn" title="Our Video">
                     <i class="icon-control-play"></i>
                 </a>
             </div><!-- End .iframe-btn-container -->

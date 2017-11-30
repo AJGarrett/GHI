@@ -9,7 +9,7 @@ Change the href attribute to change color schemes
 Caution: Include this file after style.css file
 
 Hex Codes for colors
-First Color:#AB5156;
+First Color:#990000;
 Second Color:#99484D;
 Third Color:#D59C98;
 Fourth Color:#D3928C;
@@ -19,11 +19,11 @@ Fourth Color:#D3928C;
 
 /* First Color */
 ::selection {
-    background-color: #AB5156;
+    background-color: #990000;
 }
 
 ::-moz-selection {
-	background-color: #AB5156;
+	background-color: #990000;
 }
 
 a,
@@ -136,7 +136,7 @@ a,
 #footer.footer-default .widget .tweet_time a:focus,
 .nav-border.custom-nav .owl-prev,
 .nav-border.custom-nav .owl-next  {
-	color:#AB5156;
+	color:#990000;
 }
 
 blockquote:after,
@@ -229,7 +229,7 @@ blockquote:after,
 .sbOptions a:hover,
 .sbOptions a:focus,
 .sbOptions a.sbFocus {
-	background-color: #AB5156;
+	background-color: #990000;
 }
 
 .btn-custom,
@@ -279,13 +279,13 @@ blockquote:after,
 .nav-border.custom-nav .owl-next:hover,
 .nav-border.white-nav .owl-prev:hover,
 .nav-border.white-nav .owl-next:hover {
-	border-color: #AB5156;
+	border-color: #990000;
 }
 
 .input-border-bottom.form-control:focus,
 .form-control.dark.input-border-bottom:focus,
 .form-control.white.input-border-bottom:focus {
-	border-color:#AB5156 !important;
+	border-color:#990000 !important;
 }
 
 .progress-tooltip:after,
@@ -294,20 +294,20 @@ blockquote:after,
 #header,
 .bg-custom .testimonial-vertical .testimonial-content:after,
 .bg-custom .testimonial-vertical.reverse .testimonial-content:after {
-	border-top-color: #AB5156;
+	border-top-color: #990000;
 }
 
 blockquote,
 .tooltip.left .tooltip-arrow,
 .popover.left > .arrow,
 .bg-custom .testimonial.reverse .testimonial-content:after {
-	border-left-color:#AB5156;
+	border-left-color:#990000;
 }
 
 blockquote.blockquote-reverse,
 .tooltip.top .tooltip-arrow,
 .popover.right > .arrow  {
-	border-right-color:#AB5156;
+	border-right-color:#990000;
 }
 
 .tooltip.right .tooltip-arrow,
@@ -316,7 +316,7 @@ blockquote.blockquote-reverse,
 .popover.bottom > .arrow,
 .popover.bottom > .arrow:after,
 .bg-custom .testimonial-content:after {
-	border-bottom-color: #AB5156;
+	border-bottom-color: #990000;
 }
 
 @media (max-width: 767px) {
@@ -330,7 +330,7 @@ blockquote.blockquote-reverse,
 	.navbar-white .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-white .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-white .navbar-nav .open .dropdown-menu > .active > a:focus {
-		color: #AB5156;
+		color: #990000;
 	}
 }
 
@@ -343,7 +343,7 @@ blockquote.blockquote-reverse,
 	.navbar-inverse.navbar-transparent .navbar-nav > li > a:focus,
 	.navbar-inverse.navbar-transparent .navbar-nav > li.open > a,
 	.navbar-inverse.navbar-transparent .navbar-nav > li.active > a {
-		color:#AB5156;
+		color:#990000;
 	}
 }
 

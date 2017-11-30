@@ -82,7 +82,7 @@ span.megamenu-title:hover {
 }
 @media (min-width: 992px) {
  
-  .orchard-layouts-root .container, .zone-before-main .container { width: 900px; }
+  .max-width .container { width: 900px; }
   
 }
 @media (min-width: 48em) and (max-width: 61em) { 

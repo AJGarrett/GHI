@@ -1,27 +1,19 @@
 <!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+{% include base/head.html %}
+{% include base/base-menu.html %}
 
-<html>
-    <head>
-
-        {% include base/head.html %}
-
-    </head>
-    <body>
-        <div id="wrapper">
-            {% include base/base-menu.html %}
-
-            {{ content }}
-
-            {% include base/footer.html %}
-            <script type="text/javascript">
-                $(document).ready(function(){
-                    $('.fullwidth').each(function() {
-                        var img = $(this).html();
-                        document.body.innerHTML = document.body.innerHTML.replace(img, 
-                        '</div></div></div>'+img+'<div class="container"><div class="row"><div class="col-md-12">');
-                    });
-                });
-            </script>
+<div id="main-content" class="site-main clearfix">
+    <div id="content-wrap">
+        <div id="site-content" class="site-content clearfix">
+            <div id="inner-content" class="inner-content-wrap">
+                <div class="page-content">
+                    {{ content }}
+                </div>
+            </div>
         </div>
-    </body>
-</html>
+    </div>
+</div>
+
+{% include base/footer.html %}

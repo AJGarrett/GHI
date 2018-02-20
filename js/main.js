@@ -277,6 +277,7 @@
         headerFixed: function() {
             if ( $('body').hasClass('header-fixed') ) {
                 var nav = $('#site-header');
+                var top = $('#top-bar');
 
                 if ( $('body').is('.header-style-2, .header-style-3') ) {
                     var nav = $('.site-navigation-wrap');
@@ -292,9 +293,11 @@
                     $(window).on('load scroll', function(){
                         if ( $(window).scrollTop() > offsetTop ) {
                             nav.addClass('is-fixed');
+                            top.addClass('is-fixed');
                             injectSpace.show();
                         } else {
                             nav.removeClass('is-fixed');
+                            top.removeClass('is-fixed');
                             injectSpace.hide();
                         }
                     })
